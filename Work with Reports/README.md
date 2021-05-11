@@ -1,4 +1,4 @@
-# Working with Reports (Guide)
+# Create reports using the ArcGIS API for Python (Guide)
 
 ArcGIS Survey123 reports are an effective way to quickly visualize, interpret, and share survey responses. Reports use a template you can personalize, that's applied to your survey results and shared as either a Microsoft Word or PDF document.
 

@@ -1,4 +1,4 @@
-# Update Form Resources (Task)
+# Update contents of the media folder for an ArcGIS Survey123 form item (Task)
 
 The media folder for a survey contains items used in various ArcGIS Survey123 questions and workflows. A survey's media folder can contain the following:
 - Offline basemaps for use in the ArcGIS Survey123 field app.

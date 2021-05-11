@@ -1,4 +1,4 @@
-# Using the Survey Manager (Guide)
+# Work with the Survey Manager (Guide)
 
 As a survey owner, you may want to work with your ArcGIS Survey123 surveys via the ArcGIS API for Python to automate certain tasks, modify your surveys, or work with your surveys' data. This notebook demonstrates the different workflows for connecting to your surveys using the ArcGIS API for Python.
 

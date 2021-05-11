@@ -1,4 +1,4 @@
-# Clone survey content (Task)
+# Clone surveys from one organization to another (Task)
 
 A common question the Survey123 team has received from organization administrators is, "What's the best way to clone my surveys from one organization to another?"
 

@@ -1,4 +1,4 @@
-# Using Survey Data (Guide)
+# Work with survey data (Guide)
 
 The ArcGIS API for Python provides an abundance of data analysis and data science workflows that can be deployed to perform a variety of tasks. The ArcGIS Survey123 module provides some foundational resources to get started working with your data.
 
