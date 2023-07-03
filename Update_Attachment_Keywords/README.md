@@ -1,12 +1,14 @@
-# Update attachment keywords in ArcGIS Enterprise (Task)
+# Update attachment keywords (Task)
 
-ArcGIS Survey123 uses attachment keywords to associate an attachment in a feature layer with its corresponding image, file, or audio question in a survey. Attachment keywords are supported for hosted feature layers in ArcGIS Online and ArcGIS Enterprise version 10.8.1 and later.
+ArcGIS Survey123 uses attachment [keywords](https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformmedia.htm#ESRI_SECTION1_4CD206A4C41D486D945716EB546AA856) to associate an attachment in a feature layer with its corresponding image, file, or audio question in a survey. Attachment keywords are supported for hosted feature layers in ArcGIS Online and ArcGIS Enterprise version 10.8.1 and later.
 
-As noted in the <a href="https://community.esri.com/t5/arcgis-survey123-blog/understanding-survey123-feature-reports/ba-p/897659" target="_blank">Understanding Survey123 Feature Reports</a> blog post, attachments such as photos, signatures, and annotated images are not supported in reports when using ArcGIS Enterprise version 10.8 or earlier. This is because report templates rely on attachment keywords to place image questions in the report.
+There are three main reasons you would need to update the keywords for your feature service attachments: 
 
-An issue you may run into when upgrading your ArcGIS Enterprise deployment to 10.8.1 or later is that attachments still do not print in reports. The reason for this is that even though the environment is upgraded, the upgrade process does not automatically associate attachments with Survey123 questions, nor does it automatically enable keywords in the attachment table. 
+1. You've exported your Survey123 data as a file geodatabase and want to use that data in Survey123 again
+2. You've authored a feature class, enabled attachments, published as an ArcGIS Server feature service, and started collecting data in Survey123
+3. You've upgraded your ArcGIS Enterprise organization from a pre-10.8.1 version to a post 10.8.1 version and want to update your existing data to now make use of keywords
 
-The goal of this **Python notebook** is to automate the workflow for updating attachment keywords after upgrading to ArcGIS Enterprise version 10.8.1 or later.
+**Python notebook** to update attachment keywords for existing attachments. 
 
 ### Requirements
 - Python 3.6+
